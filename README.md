@@ -1,6 +1,3 @@
-# cs142-webServer.js
-
-
 "use strict";
 
 /* jshint node: true */
@@ -691,4 +688,4 @@ app.get("/activity", checkAuth, (req, res) => {
 //   user_id: mongoose.Types.ObjectId("621b73efaf2839441cc92b86"),
 // });
 
-// testRecord.save()
+// testRecord.save();
